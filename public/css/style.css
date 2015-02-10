@@ -1044,7 +1044,11 @@ height:0px;
     text-align: center;
     text-transform: uppercase;
 }
-
+@media (min-width: 968px){
+.num h2 {
+    font-size: 60px;
+}
+}
 /* ==== 9) Separator ==== */
 #section-separator1 {
 	background-position: center 0%;
@@ -2164,7 +2168,7 @@ position:relative;
 	-moz-border-radius: 50%;
 }
 .testimonials .fa.fa-quote-left {
-    color: rgba(255, 165, 0, 0.5);
+    color: rgba(200, 0, 20, 0.6);
     font-size: 82px;
     left: 0;
     margin-top: 2px;
@@ -2172,7 +2176,7 @@ position:relative;
     vertical-align: top;
 }
 .testimonials .fa.fa-quote-right {
-    color: rgba(255, 165, 0, 0.5);
+    color: rgba(200, 0, 20, 0.6);
     font-size: 81px;
     margin-top: 0;
     position: absolute;
@@ -2740,7 +2744,7 @@ textarea {
 	-webkit-border-radius: 3px;
 	border-color: none;
 	border-color: transparent;
-	background-color:#f8bd01;
+	background-color:rgb(200, 0, 20);
 	font-weight:900;
 	-webkit-transition: .4s cubic-bezier(0.25,.46,.45,.94);
 	transition: .4s cubic-bezier(0.25,.46,.45,.94);
